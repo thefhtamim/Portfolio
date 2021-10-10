@@ -65,7 +65,7 @@ function Resume() {
             <Resumecontent
               title="MECHANICAL ENGINEERING [RUET Rajshahi, Bangladesh] "
               date="2019 - Present"
-{/*content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]} */}
+// content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]} 
             />
 
             <h3 className="resume-title">Publications</h3>

@@ -11,8 +11,10 @@ import axios from "axios";
 
 
 function Resume() {
-// const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
-  const [spojRank, upadteSpojRank] = useState(0);
+ const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
+    const [spojRank, 10] = useState(0);
+
+ //const [spojRank, upadteSpojRank] = useState(0);
   const [hackerrank, upadteHackerank] = useState(0);
   const [sem, upadateSem] = useState(0);
   const [cgpa, upadteCgpa] = useState(0);

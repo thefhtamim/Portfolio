@@ -13,7 +13,7 @@ function AboutCard() {
             <br />I am pursuing B.Sc(Engg.) in Mechanical Engineering in RUET,Bangladesh.
             <br />
             <br />
-            Apart from Studying, some other activities that I love to do!
+              {/*  Apart from Studying, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
@@ -25,7 +25,7 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Travelling
             </li>
-          </ul>
+          </ul>  */}
 
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
             "Thought is powerful in all phases. Even in my career, even in my life, things end up exactly how I visualized them"{" "}

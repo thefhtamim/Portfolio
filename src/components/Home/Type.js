@@ -9,7 +9,6 @@ function Type() {
           "Student",
           "Digital Creator",
           "Beat Producer",
-          "Writter",
         ],
         autoStart: true,
         loop: true,

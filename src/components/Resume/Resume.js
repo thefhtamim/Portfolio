@@ -104,4 +104,4 @@ content={[
  //   );
 //  }
 
-export default Resume;
+//  export default Resume;

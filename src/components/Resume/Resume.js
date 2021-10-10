@@ -101,7 +101,7 @@ content={[
         </Row>  */}
       </Container>
     </Container>
-  );
+ // );
 }
 
 export default Resume;

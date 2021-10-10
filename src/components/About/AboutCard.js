@@ -13,8 +13,9 @@ function AboutCard() {
             <br />I am pursuing B.Sc(Engg.) in Mechanical Engineering in RUET,Bangladesh.
             <br />
             <br />
-              {/*  Apart from Studying, some other activities that I love to do!
           </p>
+              {/*  Apart from Studying, some other activities that I love to do!
+
           <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Games

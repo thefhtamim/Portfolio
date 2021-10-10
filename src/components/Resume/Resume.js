@@ -1,6 +1,6 @@
 
 
-// import React, { useState, useEffect } from "react";
+ import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 //  import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
@@ -9,9 +9,9 @@ import axios from "axios";
 //import pdf from "../../Assets/Soumyajit-Behera.pdf";
 //import { AiOutlineDownload } from "react-icons/ai";
 
-{/*
+
 function Resume() {
- const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
+// const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
   const [spojRank, upadteSpojRank] = useState(0);
   const [hackerrank, upadteHackerank] = useState(0);
   const [sem, upadateSem] = useState(0);
@@ -34,7 +34,7 @@ function Resume() {
   return (
     <Container fluid className="resume-section">
       <Particle />
-      <Container>  */}
+      <Container>  
     {/* <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank">
             <AiOutlineDownload />
@@ -102,7 +102,7 @@ content={[
         </Row>  */}
       </Container>
     </Container>
-//   );
-//  }
+   );
+  }
 
   export default Resume;

@@ -11,7 +11,7 @@ import {
   AiFillStar,
   AiOutlineHome,
  // AiOutlineFundProjectionScreen,
- // AiOutlineUser,
+  AiOutlineUser,
 } from "react-icons/ai";
 
 //import { CgFileDocument } from "react-icons/cg";
@@ -59,7 +59,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-{/*     <Nav.Item>
+     <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/about"
@@ -68,7 +68,7 @@ function NavBar() {
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
-            */}
+            
 
          {/*  
             <Nav.Item>

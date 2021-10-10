@@ -1,15 +1,15 @@
 
 
- // import React, { useState, useEffect } from "react";
+  import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 //  import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
-// import axios from "axios";
+ import axios from "axios";
 //import pdf from "../../Assets/Soumyajit-Behera.pdf";
 //import { AiOutlineDownload } from "react-icons/ai";
 
-{/*
+
 function Resume() {
  const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
     
@@ -33,7 +33,7 @@ function Resume() {
       });
   }, []);
 
-  return ( */}
+  return ( 
     <Container fluid className="resume-section">
       <Particle />
       <Container>  
@@ -104,7 +104,7 @@ content={[
         </Row>  */}
       </Container>
     </Container>
- //  );
- // }
+   );
+  }
 
   export default Resume;

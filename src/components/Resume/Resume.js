@@ -70,7 +70,7 @@ function Resume() {
             <Resumecontent
               title="MECHANICAL ENGINEERING [RUET Rajshahi, Bangladesh] "
               date="2019 - Present"
- //content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]} 
+ content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]} 
             />
 
             <h3 className="resume-title">Publications</h3>
@@ -86,8 +86,8 @@ function Resume() {
               title=""
  
 content={[
-              //  `Current rank in Spoj ${spojRank}`,
-              //  `Current rank in HackerRank  ${hackerrank}`,
+                `Current rank in Spoj ${spojRank}`,
+                `Current rank in HackerRank  ${hackerrank}`,
               //  "Top Performer in Code-Break 1.0",
               //  "Participant in Hack-A-Bit 2019",
          "Will be Updated",

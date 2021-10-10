@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
+//  import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
@@ -83,8 +83,8 @@ import axios from "axios";
               title=""
  
 content={[
-              //  `Current rank in Spoj ${spojRank}`,
-              //  `Current rank in HackerRank  ${hackerrank}`,
+                `Current rank in Spoj ${spojRank}`,
+                `Current rank in HackerRank  ${hackerrank}`,
               //  "Top Performer in Code-Break 1.0",
               //  "Participant in Hack-A-Bit 2019",
          "Will be Updated",

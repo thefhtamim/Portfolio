@@ -79,12 +79,15 @@ function Resume() {
             <h3 className="resume-title">Ranks and Achivements</h3>
             <Resumecontent
               title=""
-{/* content={[
-                `Current rank in Spoj ${spojRank}`,
-                `Current rank in HackerRank  ${hackerrank}`,
-                "Top Performer in Code-Break 1.0",
-                "Participant in Hack-A-Bit 2019",
-              ]} */}
+ 
+content={[
+              //  `Current rank in Spoj ${spojRank}`,
+              //  `Current rank in HackerRank  ${hackerrank}`,
+              //  "Top Performer in Code-Break 1.0",
+              //  "Participant in Hack-A-Bit 2019",
+         "Will be Updated",
+              ]} 
+              
             />
           </Col>
         </Row>

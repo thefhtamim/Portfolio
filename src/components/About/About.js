@@ -53,8 +53,7 @@ function About() {
 
 
 
-<Container fluid className="resume-section">
-      <Particle />
+
       <Container>  
     {/* <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank">
@@ -122,7 +121,7 @@ content={[
           </Button>
         </Row>  */}
       </Container>
-    </Container>
+    
 
 
 

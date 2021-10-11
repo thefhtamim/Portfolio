@@ -32,6 +32,15 @@ function Resume() {
     //   console.log(err);
   //    });
 //  }, []);
+  
+  
+  content={[
+              //  "Worked on the development of an E-commerce website",
+               // "Redesigned Wigme.com and created features to enhance the user experience and optimized designs for smartphones.",
+              //  " Translated designs and wireframes into a highly responsive user interface and reusable components using React.js.",
+              //  "Used Back-End APIs to display data using the Custom Components, library Components, and Redux.",
+                "X.",
+              ]} 
 
   return ( 
     <Container fluid className="resume-section">

@@ -48,20 +48,8 @@ function About() {
         <Toolstack />
 
         <Github />  */}
-      </Container>
-    </Container>
 
-
-
-
-      <Container>  
-    {/* <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={pdf} target="_blank">
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
-        </Row> */}
-        <Row className="resume">
+<Row className="resume">
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
@@ -114,14 +102,17 @@ content={[
             />
           </Col>
         </Row>
-{/*<Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={pdf} target="_blank">
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
-        </Row>  */}
+
+
       </Container>
-    
+    </Container>
+
+
+
+
+     
+        
+
 
 
 

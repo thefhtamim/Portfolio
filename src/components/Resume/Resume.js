@@ -5,42 +5,35 @@ import { Container, Row, Col } from "react-bootstrap";
 //  import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
-// import axios from "axios";
+ import axios from "axios";
 //import pdf from "../../Assets/Soumyajit-Behera.pdf";
 //import { AiOutlineDownload } from "react-icons/ai";
 
 
 function Resume() {
-// const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
+ const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
     
 
-// const [spojRank, upadteSpojRank] = useState(0);
-//  const [hackerrank, upadteHackerank] = useState(0);
- // const [sem, upadateSem] = useState(0);
- // const [cgpa, upadteCgpa] = useState(0);
+ const [spojRank, upadteSpojRank] = useState(0);
+  const [hackerrank, upadteHackerank] = useState(0);
+  const [sem, upadateSem] = useState(0);
+  const [cgpa, upadteCgpa] = useState(0);
 
-//  useEffect(() => {
-   // axios
-     // .get(uri)
-     // .then((res) => {
-    //    upadteSpojRank(res.data.message[0].spojRank);
-      //  upadteHackerank(res.data.message[1].hackerrank);
-     //   upadteCgpa(res.data.message[2].cgpa);
-     //   upadateSem(res.data.message[3].sem);
-   //   })
-     // .catch((err) => {
-    //   console.log(err);
-  //    });
-//  }, []);
+  useEffect(() => {
+    axios
+      .get(uri)
+      .then((res) => {
+        upadteSpojRank(res.data.message[0].spojRank);
+        upadteHackerank(res.data.message[1].hackerrank);
+        upadteCgpa(res.data.message[2].cgpa);
+        upadateSem(res.data.message[3].sem);
+      })
+      .catch((err) => {
+       console.log(err);
+      });
+  }, []);
   
-  <Container>
-  content={[
-              //  "Worked on the development of an E-commerce website",
-               // "Redesigned Wigme.com and created features to enhance the user experience and optimized designs for smartphones.",
-              //  " Translated designs and wireframes into a highly responsive user interface and reusable components using React.js.",
-              //  "Used Back-End APIs to display data using the Custom Components, library Components, and Redux.",
-                "X.",
-              ]} </Container>
+ 
 
   return ( 
     <Container fluid className="resume-section">
@@ -79,7 +72,7 @@ function Resume() {
             <Resumecontent
               title="MECHANICAL ENGINEERING [RUET Rajshahi, Bangladesh] "
               date="2019 - Present"
-// content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]} 
+ content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]} 
             />
 
             <h3 className="resume-title">Publications</h3>
@@ -95,8 +88,8 @@ function Resume() {
               title=""
  
 content={[
-              //  `Current rank in Spoj ${spojRank}`,
-            //    `Current rank in HackerRank  ${hackerrank}`,
+                `Current rank in Spoj ${spojRank}`,
+                `Current rank in HackerRank  ${hackerrank}`,
               //  "Top Performer in Code-Break 1.0",
               //  "Participant in Hack-A-Bit 2019",
          "Will be Updated",
